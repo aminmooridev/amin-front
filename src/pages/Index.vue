@@ -272,18 +272,19 @@
           </div>
           <div class="row">
             <div class="col-12">
-              <div class="row q-col-gutter-md">
+              <div class="row q-col-gutter-lg">
                 <div class="col-4" v-for="ser in 6" :key="ser">
-                  <div class="outer-shadow rounded-borders service-item cursor-pointer">
+                  <div class="outer-shadow rounded-borders service-item cursor-pointer q-pt-lg q-pb-lg">
                     <q-card-section class="text-center">
                         <div class="text-h6 q-pt-md">
-                          <span class="inner-shadow q-pa-sm box-service-item-icon">
+                          <span class="inner-shadow q-pa-md box-service-item-icon">
                             <q-icon name="phone_iphone" size="md" class="icon-service"/>
                           </span>
                         </div>
-                        <div class="text-subtitle2 q-mt-md">ریسپانسیو</div>
                     </q-card-section>
-
+                    <q-card-section>
+                      <div class="text-subtitle2 text-center text-bold">ریسپانسیو</div>
+                    </q-card-section>
                     <q-card-section class="q-pt-none text-center">
                       لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
                     </q-card-section>
