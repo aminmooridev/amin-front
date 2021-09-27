@@ -22,6 +22,9 @@ a{
 .inner-shadow{
   box-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
 }
+.inner-shadow-0{
+  box-shadow: inset 0px 0px 0px #d0d0d0, inset 0px 0px 0px #f8f8f8;
+}
 .hover-in-shadow{
   position: relative;
   z-index: 1;

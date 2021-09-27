@@ -8,13 +8,43 @@
       <div class="row justify-center q-py-md">
         <div class="col-11 col-md-9">
           <div class="row justify-between items-center">
+            <!-- <div @click="navMenu = true" class="hamburger-btn justify-center items-center text-center cursor-pointer outer-shadow hover-in-shadow">
+              <span></span>
+            </div> -->
             <div class="logo">
               <a href="/" class="text-h6 text-primary text-center">
                 ام
               </a>
             </div>
-            <div @click="navMenu = true" class="hamburger-btn justify-center items-center text-center cursor-pointer outer-shadow hover-in-shadow">
-              <span></span>
+            <div class="btn-menus q-gutter-x-sm">
+              <q-btn
+                to="/"
+                flat
+                rounded
+                label="صفحه ی اصلی"
+                class="outer-shadow hover-in-shadow text-grey after-btn" />
+              <q-btn
+                to="/about"
+                flat
+                rounded
+                label="درباره"
+                class="outer-shadow hover-in-shadow text-grey after-btn" />
+              <q-btn
+                to="/portfolio"
+                flat
+                rounded
+                label="مهارت ها"
+                class="outer-shadow hover-in-shadow text-grey after-btn" />
+              <q-btn
+                flat
+                rounded
+                label="نمونه کار"
+                class="outer-shadow hover-in-shadow text-grey after-btn" />
+              <q-btn
+                rounded
+                label="تماس"
+                color="primary"
+                class="text-white after-btn"/>
             </div>
           </div>
         </div>
@@ -74,6 +104,11 @@ export default {
 </script>
 
 <style lang="scss">
+.after-btn{
+  &:after{
+    border-radius: 28px;
+  }
+}
 .logo a{
   height: 40px;
   width: 40px;

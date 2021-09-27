@@ -6,97 +6,14 @@
         <div class="effect effect-2 absolute">
           <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
         </div>
-        <div class="effect effect-4 absolute"></div>
+        <!-- <div class="effect effect-4 absolute"></div> -->
         <div class="effect effect-5 absolute">
           <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
         </div>
       </div>
-      <div class="row justify-center items-center q-pt-lg">
-        <div class="col-3">
-          <div class="img-box text-center q-mx-auto inner-shadow q-pa-md">
-            <q-img
-              src="image/man.png"
-              class="full-width"
-            />
-          </div>
-          <div class="home-text q-gutter-y-md text-center q-mt-md">
-            <div class="text-h4 text-weight-bold">امین موری</div>
-            <div>طراح و توسعه دهنده وب</div>
-            <div class="q-mt-lg">
-              <a href="" class="outer-shadow hover-in-shadow text-primary q-py-sm q-px-lg cursor-pointer">
-                درباره ی من
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- <section class="relative-position windows-height">
-      <div class="effect-wrap">
-        <div class="effect effect-1 absolute"></div>
-        <div class="effect effect-2 absolute">
-          <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-        </div>
-        <div class="effect effect-4 absolute"></div>
-        <div class="effect effect-5 absolute">
-          <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-        </div>
-      </div>
-      <div class="row justify-center">
-        <div class="col-11 col-md-4">
-          <div class="row justify-center">
-            <div class="col-8">
-              <div class="img-box text-center q-mx-auto inner-shadow q-pa-md">
-                <q-img
-                  src="image/man.png"
-                  class="full-width"
-                />
-              </div>
-              <div class="home-text q-gutter-y-md text-center q-mt-md">
-                <div class="text-h4 text-weight-bold">امین موری</div>
-                <div>طراح و توسعه دهنده وب</div>
-                <div class="q-mt-lg">
-                  <a href="" class="outer-shadow hover-in-shadow text-primary q-py-sm q-px-lg cursor-pointer">
-                    درباره ی من
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row items-center justify-between">
-            <div class="col home-text q-gutter-y-md">
-              <p>سلام</p>
-              <div class="text-h3 text-weight-bold">امین موری</div>
-              <div>طراح و توسعه دهنده وب</div>
-              <div class="q-mt-lg">
-                <a href="" class="outer-shadow hover-in-shadow text-primary q-py-sm q-px-lg cursor-pointer">
-                  درباره ی من
-                </a>
-              </div>
-            </div>
-            <div class="col home-img q-px-md">
-              <div class="img-box q-mx-auto inner-shadow q-pa-md">
-                <q-img
-                  src="image/man.png"
-                  class="full-width"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>  -->
-
-    <!-- <section class="about-section section q-py-lg">
-      <div class="row justify-center">
-        <div class="col-11 col-md-9">
-          <div class="row">
-            <div class="section-title q-mx-auto text-center">
-              <div class="text-primary">اطلاعات اصلی</div>
-              <div class="text-h5 text-weight-bold">درباره من</div>
-            </div>
-          </div>
-          <div class="row q-py-lg justify-between">
+      <div class="row justify-center items-center q-pt-xl">
+        <div class="col-8">
+          <div class="row q-py-lg justify-between items-center">
             <div class="col-5 about-img">
               <div class="q-gutter-y-md">
                 <div class="img-box inner-shadow q-pa-md">
@@ -308,10 +225,10 @@
             </div>
           </div>
         </div>
-      </div>     
+      </div>
     </section>
 
-    <section class="service-section section q-py-lg">
+    <!-- <section class="service-section section q-py-lg">
       <div class="row justify-center">
         <div class="col-11 col-md-9 q-gutter-y-lg">
           <div class="row">
@@ -345,9 +262,9 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section class="portfolio-section section q-py-lg">
+    <!-- <section class="portfolio-section section q-py-lg">
       <div class="row justify-center">
         <div class="col-11 col-md-9 q-gutter-y-lg">
           <div class="row">
@@ -362,7 +279,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>  -->
   </q-page>
 </template>
 
