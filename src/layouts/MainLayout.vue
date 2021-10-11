@@ -33,11 +33,6 @@
                 to="/portfolio"
                 flat
                 rounded
-                label="مهارت ها"
-                class="outer-shadow hover-in-shadow text-grey after-btn" />
-              <q-btn
-                flat
-                rounded
                 label="نمونه کار"
                 class="outer-shadow hover-in-shadow text-grey after-btn" />
               <q-btn
